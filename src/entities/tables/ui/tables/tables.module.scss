@@ -1,0 +1,22 @@
+.addTable {
+	position: relative;
+}
+
+.modalClassName {
+	top: 40px;
+	left: 8px;
+	margin: unset;
+}
+
+.tablesWrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.tableWrapper {
+	flex: 1 0;
+	min-width: calc(100% / 3 - 10px);
+}
